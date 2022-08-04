@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>Advanced Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link href="google.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <ul class="m-3 nav">
+                <li class="nav-item">
+                    <a href="index.html">
+                        <img src="google.png" alt="google's logo" id="nav-logo">
+                    </a>
+                </li>
+                <li class="ms-auto nav-item">
+                    <a class="nav-link f-13" href="index.html">Google Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link f-13" href="images.html">Images</a>
+                </li>
+                <li class="nav-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="gray" class="bi bi-grid-4x4-gap-fill" viewBox="0 0 16 16">
+                        <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
+                    </svg>
+                </li>
+                <li class="nav-item">
+                    <img src="Gedogoogle.png" alt="google's g" id="Gdogoogle">
+                </li>
+            </ul>
+        </div>
+            <div class="subtitle">
+                <label>Advanced Search</label>
+            </div>
+            <div class="line"></div>
+            <div class="formarea">
+                <div class="table">
+                <div class="leftcellspace"><div class="leftcell">Find pages with...</div></div>
+                <div class="middlecellspace"></div>
+                <div class="rightcellspace"><div class="rightcell">To do this in the search box.</div></div>
+                </div>
+            <form action="https://www.google.com/search">
+                <div class="table-notb">
+                    <div class="leftcellspace"><div class="leftcell font">
+                        all these words:
+                    </div></div>
+                    <div class=middlecellspace><div class="middlecell">
+                        <input type="text" name="as_q" class="textinput">
+                    </div></div>
+                    <div class="rightcellspot"><div class="rightcell">
+                        Type the most important words: 
+                        <span class="example">tri-colour rat terrier</span>
+                    </div></div>
+                    <div class="leftcellspace"><div class="leftcell font">
+                        this exact word or phrase:
+                    </div></div>
+                    <div class="middlecellspace"><div class="middlecell">
+                        <input type="text" name="as_epq" class="textinput">
+                    </div></div>
+                    <div class="rightcellspot"><div class="rightcell">
+                        Put exact words in quote: 
+                        <span class="example">"rat terrier"</span>
+                    </div></div>
+                    <div class="leftcellspace"><div class="leftcell font">
+                    any of these words:
+                    </div></div>
+                    <div class="middlecellspace"><div class="middlecell">
+                    <input type="text" name="as_oq" class="textinput">
+                    </div></div>
+                    <div class="rightcellspot"><div class="rightcell">
+                        Type
+                        <span class="example">OR</span>
+                        between all the words you want:
+                        <span class="example">miniature OR standard</span>
+                    </div></div>
+                    <div class="leftcellspace"><div class="leftcell font">
+                        none of these words:
+                    </div></div>
+                    <div class="middlecellspace"><div class="middlecell">
+                    <input type="text" name="as_eq" class="textinput">
+                    </div></div>
+                    <div class="rightcellspot"><div class="rightcell">
+                        Put a minus sign just before words that you don't want:
+                        <span class="example">-rodent-"Jack Russell"</span>
+                    </div></div>
+                    <div class="leftcellspace"></div>
+                    <div class="middlecellspace">
+                    <input type="submit" value="Advanced Search" class="submitbtn">
+                    </div>
+                    </div></div>
+            </form>
+            <div class="formarea">
+                <div class="line m-18 hide"></div>
+                <div class="leftcellspace">
+                    <div class="leftcell hide">
+                        You can also...
+                    </div>
+                </div>
+                <div class="divlink hide">
+                    <a href="https://support.google.com/websearch?p=adv_pages_similar&hl=en" class="advlink">Find pages that are similar to a URL</a>
+                </div>
+                <div class="divlink hide">
+                    <a href="https://support.google.com/websearch?p=adv_pages_visited&hl=en" class="advlink">Search pages that you've visited</a>
+                </div>
+                <div class="divlink hide">
+                    <a href="https://support.google.com/websearch?p=adv_operators&hl=en" class="advlink">Use operators in the search box</a>
+                </div>
+                <div class="divlink hide">
+                    <a href="https://www.google.com/preferences?hl=en-BR" class="advlink">Customise your search settings</a>
+                </div>
+            </div>
+        <div class="footer" id="semi-footer-ad">
+            Brazil
+        </div>
+        <footer>
+            <div class="footer">
+                <a href="https://support.google.com/websearch/?p=ws_results_help&hl=en-BR&fg=1">Help</a>
+                <a href="https://policies.google.com/privacy?hl=en-BR&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en-BR&fg=1">Terms</a>
+            </div>
+        </footer>
+    </body>
+</html>
